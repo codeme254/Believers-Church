@@ -232,3 +232,45 @@ body {
     display: flex;
     align-items: center;
 }
+/* home about stylings end here */
+
+/* the stylings for the preamble section begin here */
+.preamble{
+    background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)),url(../images/congregation.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.preamble>*:not(:last-child){
+    margin-bottom: 3rem;
+}
+.preamble__subtitle{
+    font-size: 3rem;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+.preamble__title{
+    font-size: 4rem;
+    text-align: center;
+    color: var(--color-white);
+    line-height: 1.2;
+    font-weight: normal;
+}
+.preamble__link:link, .preamble__link:visited{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    background-color: var(--color-white-light-2);
+    color: var(--color-primary);
+    text-transform: uppercase;
+    border-radius: 1px;
+    transition: all .3s ease;
+}
+.preamble__link:hover{
+    background-color: var(--color-white);
+}
