@@ -559,6 +559,48 @@ body {
 }
 /* end of news and blogs stylings */
 
+/* Beginning of subscribe stylings */
+.subscribe{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--color-primary);
+  padding-block: 3rem;
+}
+.subscribe__text{
+  font-size: 2.8rem;
+  font-weight: bold;
+  transform: scaleY(1.2);
+  color: var(--color-white);
+}
+.subscribe__subtitle{
+  font-size: 1.6rem;
+  color: var(--color-white);
+  letter-spacing: 1.3px;
+}
+.subscribe__form--text-input{
+  padding: 1.8rem 2.5rem;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  color: var(--color-grey);
+  min-width: 50rem;
+  margin-right: -14rem;
+}
+.subscribe__form--button{
+  border: none;
+  outline: none;
+  padding: 1rem 1.5rem;
+  font-size: 1.7rem;
+  background-color: var(--color-primary);
+  font-weight: bold;
+  color: var(--color-white);
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
 /* beginning of footer stylings */
 .footer{
   background-color: #330101;
